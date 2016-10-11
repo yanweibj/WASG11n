@@ -304,6 +304,7 @@ public class DeployTVT  extends BaseCase{
 	
 		WebElement password = new WebDriverWait(driver, 10)
 				.until(ExpectedConditions.visibilityOfElementLocated(By.id("default_inputVariable_keystorePassword")));
+		sleep(1);
 		password.sendKeys("abcd");
 		for (int i = 1; i <=5 ; i++) {
 			sleep(1);

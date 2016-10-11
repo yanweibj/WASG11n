@@ -2,119 +2,119 @@
 <testng-results skipped="0" failed="0" total="17" passed="17">
   <reporter-output>
   </reporter-output>
-  <suite name="TVT-Suite" duration-ms="136104" started-at="2016-10-11T02:26:14Z" finished-at="2016-10-11T02:28:30Z">
+  <suite name="TVT-Suite" duration-ms="135045" started-at="2016-10-11T08:08:24Z" finished-at="2016-10-11T08:10:39Z">
     <groups>
     </groups>
-    <test name="CHS" duration-ms="136104" started-at="2016-10-11T02:26:14Z" finished-at="2016-10-11T02:28:30Z">
+    <test name="PTB" duration-ms="135045" started-at="2016-10-11T08:08:24Z" finished-at="2016-10-11T08:10:39Z">
       <class name="was.test.w4q16.LoginPageTVT">
-        <test-method status="PASS" signature="BeforeTest(java.lang.String)[pri:0, instance:was.test.w4q16.LoginPageTVT@3c756e4d]" name="BeforeTest" is-config="true" duration-ms="3713" started-at="2016-10-11T10:26:14Z" finished-at="2016-10-11T10:26:18Z">
+        <test-method status="PASS" signature="BeforeTest(java.lang.String)[pri:0, instance:was.test.w4q16.LoginPageTVT@3c756e4d]" name="BeforeTest" is-config="true" duration-ms="4261" started-at="2016-10-11T16:08:24Z" finished-at="2016-10-11T16:08:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[zh-cn]]>
+                <![CDATA[pt-br]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:was.test.w4q16.LoginPageTVT@3c756e4d]" name="beforeClass" is-config="true" duration-ms="434" started-at="2016-10-11T10:26:18Z" finished-at="2016-10-11T10:26:19Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:was.test.w4q16.LoginPageTVT@3c756e4d]" name="beforeClass" is-config="true" duration-ms="542" started-at="2016-10-11T16:08:28Z" finished-at="2016-10-11T16:08:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[CHS]]>
+                <![CDATA[PTB]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="test_01_010_010()[pri:0, instance:was.test.w4q16.LoginPageTVT@3c756e4d]" name="test_01_010_010" duration-ms="289" started-at="2016-10-11T10:26:19Z" finished-at="2016-10-11T10:26:19Z">
+        <test-method status="PASS" signature="test_01_010_010()[pri:0, instance:was.test.w4q16.LoginPageTVT@3c756e4d]" name="test_01_010_010" duration-ms="317" started-at="2016-10-11T16:08:29Z" finished-at="2016-10-11T16:08:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_01_010_010 -->
-        <test-method status="PASS" signature="AfterTest()[pri:0, instance:was.test.w4q16.LoginPageTVT@3c756e4d]" name="AfterTest" is-config="true" duration-ms="451" started-at="2016-10-11T10:28:30Z" finished-at="2016-10-11T10:28:30Z">
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:was.test.w4q16.LoginPageTVT@3c756e4d]" name="AfterTest" is-config="true" duration-ms="384" started-at="2016-10-11T16:10:39Z" finished-at="2016-10-11T16:10:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
       </class> <!-- was.test.w4q16.LoginPageTVT -->
       <class name="was.test.w4q16.DeployTVT">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:was.test.w4q16.DeployTVT@7c0e2abd]" name="beforeClass" is-config="true" duration-ms="3995" started-at="2016-10-11T10:26:19Z" finished-at="2016-10-11T10:26:23Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:was.test.w4q16.DeployTVT@7c0e2abd]" name="beforeClass" is-config="true" duration-ms="4276" started-at="2016-10-11T16:08:29Z" finished-at="2016-10-11T16:08:33Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[CHS]]>
+                <![CDATA[PTB]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="test_01_020_010()[pri:0, instance:was.test.w4q16.DeployTVT@7c0e2abd]" name="test_01_020_010" duration-ms="8923" started-at="2016-10-11T10:26:23Z" finished-at="2016-10-11T10:26:32Z">
+        <test-method status="PASS" signature="test_01_020_010()[pri:0, instance:was.test.w4q16.DeployTVT@7c0e2abd]" name="test_01_020_010" duration-ms="5949" started-at="2016-10-11T16:08:33Z" finished-at="2016-10-11T16:08:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_01_020_010 -->
-        <test-method status="PASS" signature="test_01_020_020()[pri:0, instance:was.test.w4q16.DeployTVT@7c0e2abd]" name="test_01_020_020" duration-ms="3180" started-at="2016-10-11T10:26:32Z" finished-at="2016-10-11T10:26:35Z">
+        <test-method status="PASS" signature="test_01_020_020()[pri:0, instance:was.test.w4q16.DeployTVT@7c0e2abd]" name="test_01_020_020" duration-ms="3181" started-at="2016-10-11T16:08:39Z" finished-at="2016-10-11T16:08:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_01_020_020 -->
-        <test-method status="PASS" signature="test_01_020_030()[pri:0, instance:was.test.w4q16.DeployTVT@7c0e2abd]" name="test_01_020_030" duration-ms="3185" started-at="2016-10-11T10:26:35Z" finished-at="2016-10-11T10:26:38Z">
+        <test-method status="PASS" signature="test_01_020_030()[pri:0, instance:was.test.w4q16.DeployTVT@7c0e2abd]" name="test_01_020_030" duration-ms="3177" started-at="2016-10-11T16:08:42Z" finished-at="2016-10-11T16:08:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_01_020_030 -->
-        <test-method status="PASS" signature="test_01_020_040()[pri:0, instance:was.test.w4q16.DeployTVT@7c0e2abd]" name="test_01_020_040" duration-ms="3195" started-at="2016-10-11T10:26:38Z" finished-at="2016-10-11T10:26:41Z">
+        <test-method status="PASS" signature="test_01_020_040()[pri:0, instance:was.test.w4q16.DeployTVT@7c0e2abd]" name="test_01_020_040" duration-ms="3226" started-at="2016-10-11T16:08:46Z" finished-at="2016-10-11T16:08:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_01_020_040 -->
-        <test-method status="PASS" signature="test_01_020_050()[pri:0, instance:was.test.w4q16.DeployTVT@7c0e2abd]" name="test_01_020_050" duration-ms="18580" started-at="2016-10-11T10:26:41Z" finished-at="2016-10-11T10:27:00Z">
+        <test-method status="PASS" signature="test_01_020_050()[pri:0, instance:was.test.w4q16.DeployTVT@7c0e2abd]" name="test_01_020_050" duration-ms="18594" started-at="2016-10-11T16:08:49Z" finished-at="2016-10-11T16:09:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_01_020_050 -->
-        <test-method status="PASS" signature="test_01_020_060()[pri:0, instance:was.test.w4q16.DeployTVT@7c0e2abd]" name="test_01_020_060" duration-ms="6351" started-at="2016-10-11T10:27:00Z" finished-at="2016-10-11T10:27:06Z">
+        <test-method status="PASS" signature="test_01_020_060()[pri:0, instance:was.test.w4q16.DeployTVT@7c0e2abd]" name="test_01_020_060" duration-ms="6334" started-at="2016-10-11T16:09:07Z" finished-at="2016-10-11T16:09:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_01_020_060 -->
-        <test-method status="PASS" signature="test_01_020_070()[pri:0, instance:was.test.w4q16.DeployTVT@7c0e2abd]" name="test_01_020_070" duration-ms="3161" started-at="2016-10-11T10:27:06Z" finished-at="2016-10-11T10:27:09Z">
+        <test-method status="PASS" signature="test_01_020_070()[pri:0, instance:was.test.w4q16.DeployTVT@7c0e2abd]" name="test_01_020_070" duration-ms="3156" started-at="2016-10-11T16:09:14Z" finished-at="2016-10-11T16:09:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_01_020_070 -->
-        <test-method status="PASS" signature="test_01_020_080()[pri:0, instance:was.test.w4q16.DeployTVT@7c0e2abd]" name="test_01_020_080" duration-ms="18619" started-at="2016-10-11T10:27:09Z" finished-at="2016-10-11T10:27:28Z">
+        <test-method status="PASS" signature="test_01_020_080()[pri:0, instance:was.test.w4q16.DeployTVT@7c0e2abd]" name="test_01_020_080" duration-ms="18610" started-at="2016-10-11T16:09:17Z" finished-at="2016-10-11T16:09:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_01_020_080 -->
-        <test-method status="PASS" signature="test_01_020_090()[pri:0, instance:was.test.w4q16.DeployTVT@7c0e2abd]" name="test_01_020_090" duration-ms="5869" started-at="2016-10-11T10:27:28Z" finished-at="2016-10-11T10:27:34Z">
+        <test-method status="PASS" signature="test_01_020_090()[pri:0, instance:was.test.w4q16.DeployTVT@7c0e2abd]" name="test_01_020_090" duration-ms="5891" started-at="2016-10-11T16:09:36Z" finished-at="2016-10-11T16:09:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_01_020_090 -->
-        <test-method status="PASS" signature="test_01_020_100()[pri:0, instance:was.test.w4q16.DeployTVT@7c0e2abd]" name="test_01_020_100" duration-ms="3153" started-at="2016-10-11T10:27:34Z" finished-at="2016-10-11T10:27:37Z">
+        <test-method status="PASS" signature="test_01_020_100()[pri:0, instance:was.test.w4q16.DeployTVT@7c0e2abd]" name="test_01_020_100" duration-ms="3164" started-at="2016-10-11T16:09:41Z" finished-at="2016-10-11T16:09:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_01_020_100 -->
-        <test-method status="PASS" signature="test_01_020_110()[pri:0, instance:was.test.w4q16.DeployTVT@7c0e2abd]" name="test_01_020_110" duration-ms="3154" started-at="2016-10-11T10:27:37Z" finished-at="2016-10-11T10:27:40Z">
+        <test-method status="PASS" signature="test_01_020_110()[pri:0, instance:was.test.w4q16.DeployTVT@7c0e2abd]" name="test_01_020_110" duration-ms="3154" started-at="2016-10-11T16:09:45Z" finished-at="2016-10-11T16:09:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_01_020_110 -->
-        <test-method status="PASS" signature="test_01_020_120()[pri:0, instance:was.test.w4q16.DeployTVT@7c0e2abd]" name="test_01_020_120" duration-ms="3169" started-at="2016-10-11T10:27:40Z" finished-at="2016-10-11T10:27:43Z">
+        <test-method status="PASS" signature="test_01_020_120()[pri:0, instance:was.test.w4q16.DeployTVT@7c0e2abd]" name="test_01_020_120" duration-ms="3151" started-at="2016-10-11T16:09:48Z" finished-at="2016-10-11T16:09:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_01_020_120 -->
-        <test-method status="PASS" signature="test_01_020_130()[pri:0, instance:was.test.w4q16.DeployTVT@7c0e2abd]" name="test_01_020_130" duration-ms="18542" started-at="2016-10-11T10:27:43Z" finished-at="2016-10-11T10:28:02Z">
+        <test-method status="PASS" signature="test_01_020_130()[pri:0, instance:was.test.w4q16.DeployTVT@7c0e2abd]" name="test_01_020_130" duration-ms="18510" started-at="2016-10-11T16:09:51Z" finished-at="2016-10-11T16:10:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_01_020_130 -->
-        <test-method status="PASS" signature="test_01_020_140()[pri:0, instance:was.test.w4q16.DeployTVT@7c0e2abd]" name="test_01_020_140" duration-ms="6262" started-at="2016-10-11T10:28:02Z" finished-at="2016-10-11T10:28:08Z">
+        <test-method status="PASS" signature="test_01_020_140()[pri:0, instance:was.test.w4q16.DeployTVT@7c0e2abd]" name="test_01_020_140" duration-ms="6285" started-at="2016-10-11T16:10:09Z" finished-at="2016-10-11T16:10:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_01_020_140 -->
-        <test-method status="PASS" signature="test_01_020_150()[pri:0, instance:was.test.w4q16.DeployTVT@7c0e2abd]" name="test_01_020_150" duration-ms="3150" started-at="2016-10-11T10:28:08Z" finished-at="2016-10-11T10:28:11Z">
+        <test-method status="PASS" signature="test_01_020_150()[pri:0, instance:was.test.w4q16.DeployTVT@7c0e2abd]" name="test_01_020_150" duration-ms="3163" started-at="2016-10-11T16:10:16Z" finished-at="2016-10-11T16:10:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_01_020_150 -->
-        <test-method status="PASS" signature="test_01_020_160()[pri:0, instance:was.test.w4q16.DeployTVT@7c0e2abd]" name="test_01_020_160" duration-ms="18683" started-at="2016-10-11T10:28:11Z" finished-at="2016-10-11T10:28:30Z">
+        <test-method status="PASS" signature="test_01_020_160()[pri:0, instance:was.test.w4q16.DeployTVT@7c0e2abd]" name="test_01_020_160" duration-ms="19645" started-at="2016-10-11T16:10:19Z" finished-at="2016-10-11T16:10:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_01_020_160 -->
       </class> <!-- was.test.w4q16.DeployTVT -->
-    </test> <!-- CHS -->
+    </test> <!-- PTB -->
   </suite> <!-- TVT-Suite -->
 </testng-results>

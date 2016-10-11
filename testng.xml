@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="TVT-Suite" verbose="1">
-    
-        <test name="CHS">
-    	<parameter name="locale" value="zh-cn" />
-    	<parameter name="lang"   value="CHS" />    	
+
+    <test name="PTB">
+    	<parameter name="locale" value="pt-br" />
+    	<parameter name="lang"   value="PTB" />   	
     	<classes>
         	<class name="was.test.w4q16.LoginPageTVT" />
         	<class name="was.test.w4q16.DeployTVT" />
     	</classes> 
-    </test> 
-	
-    
-
+    </test>
+ 
     
     
     
