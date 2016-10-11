@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Explore-Suite">
+    
+    <test name="ENU">
+    	<parameter name="locale" value="en-us" />
+    	<parameter name="lang"   value="ENU" />
+    	
+    	<classes>
+        	<class name="test.w4q15.ExploreTVT" />
+        	<class name="test.w4q15.ServerConfigTVT" />
+    	</classes>
+    </test>   
+     
+    <!-- NLS languages -->
+    
+    <test name="CHS">
+    	<parameter name="locale" value="zh-cn" />
+    	<parameter name="lang"   value="CHS" />    	
+    	<classes>
+        	<class name="test.w4q15.ExploreTVT" />
+        	<class name="test.w4q15.ServerConfigTVT" />
+    	</classes> 
+    </test>
+    
+<!--  
+    <test name="CHT">
+    	<parameter name="locale" value="zh-tw" />
+    	<parameter name="lang"   value="CHT" /> 	
+    	<classes>
+        	<class name="test.w4q15.ExploreTVT" />
+        	<class name="test.w4q15.ServerConfigTVT" />
+    	</classes> 
+    </test>
+     
+    <test name="CSY">
+    	<parameter name="locale" value="cs" />
+    	<parameter name="lang"   value="CSY" />   	
+    	<classes>
+        	<class name="test.w4q15.ExploreTVT" />
+    	</classes> 
+    </test>
+    
+    <test name="DEU">
+    	<parameter name="locale" value="de-de" />
+    	<parameter name="lang"   value="DEU" />   	
+    	<classes>
+        	<class name="test.w4q15.ExploreTVT" />
+    	</classes> 
+    </test>
+    
+    <test name="FRA">
+    	<parameter name="locale" value="fr-fr" />
+    	<parameter name="lang"   value="FRA" />   	
+    	<classes>
+        	<class name="test.w4q15.ExploreTVT" />
+    	</classes> 
+    </test>
+    
+    <test name="HUN">
+    	<parameter name="locale" value="hu" />
+    	<parameter name="lang"   value="HUN" />
+    	<classes>
+        	<class name="test.w4q15.ExploreTVT" />
+    	</classes> 
+    </test>
+    
+    <test name="ITA">
+    	<parameter name="locale" value="it" />
+    	<parameter name="lang"   value="ITA" />  	
+    	<classes>
+        	<class name="test.w4q15.ExploreTVT" />
+    	</classes> 
+    </test>
+    
+    <test name="JPN">
+    	<parameter name="locale" value="ja" />
+    	<parameter name="lang"   value="JPN" />  	
+    	<classes>
+        	<class name="test.w4q15.ExploreTVT" />
+    	</classes> 
+    </test>
+    
+    <test name="KOR">
+    	<parameter name="locale" value="ko-kr" />
+    	<parameter name="lang"   value="KOR" />   	
+    	<classes>
+        	<class name="test.w4q15.ExploreTVT" />
+    	</classes> 
+    </test>
+    
+	<test name="PLK">
+    	<parameter name="locale" value="pl" />
+    	<parameter name="lang"   value="PLK" />   	
+    	<classes>
+        	<class name="test.w4q15.ExploreTVT" />
+    	</classes> 
+    </test>    
+    
+    <test name="PTB">
+    	<parameter name="locale" value="pt-br" />
+    	<parameter name="lang"   value="PTB" />   	
+    	<classes>
+        	<class name="test.w4q15.ExploreTVT" />
+    	</classes> 
+    </test>
+    
+    <test name="ROM">
+    	<parameter name="locale" value="ro-ro" />
+    	<parameter name="lang"   value="ROM" />   	
+    	<classes>
+        	<class name="test.w4q15.ExploreTVT" />
+    	</classes> 
+    </test>
+    
+    <test name="RUS">
+    	<parameter name="locale" value="ru" />
+    	<parameter name="lang"   value="RUS" />   	
+    	<classes>
+        	<class name="test.w4q15.ExploreTVT" />
+    	</classes> 
+    </test> 
+    
+    <test name="ESP">
+    	<parameter name="locale" value="es-es" />
+    	<parameter name="lang"   value="ESP" />   	
+    	<classes>
+        	<class name="test.w4q15.ExploreTVT" />
+    	</classes> 
+    </test> 
+ -->    
+</suite>

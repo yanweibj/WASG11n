@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TVT-Suite]">
+  <parameter name="locale" value="zh-cn"/>
+  <parameter name="lang" value="CHS"/>
+  <test name="CHS(failed)">
+    <parameter name="locale" value="zh-cn"/>
+    <parameter name="lang" value="CHS"/>
+    <classes>
+      <class name="was.test.w4q16.LoginPageTVT">
+        <methods>
+          <include name="AfterTest"/>
+          <include name="beforeClass"/>
+          <include name="BeforeTest"/>
+        </methods>
+      </class> <!-- was.test.w4q16.LoginPageTVT -->
+      <class name="was.test.w4q16.DeployTVT">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="test_01_020_070"/>
+          <include name="test_01_020_060"/>
+          <include name="test_01_020_090"/>
+          <include name="test_01_020_080"/>
+          <include name="test_01_020_100"/>
+          <include name="test_01_020_120"/>
+          <include name="test_01_020_110"/>
+          <include name="test_01_020_140"/>
+          <include name="test_01_020_130"/>
+          <include name="test_01_020_050"/>
+          <include name="test_01_020_160"/>
+          <include name="test_01_020_150"/>
+        </methods>
+      </class> <!-- was.test.w4q16.DeployTVT -->
+    </classes>
+  </test> <!-- CHS(failed) -->
+</suite> <!-- Failed suite [TVT-Suite] -->

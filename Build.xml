@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="WASLiberty" default="testoutput" basedir=".">
+	  
+   <property name="srcdir" location="${basedir}/src" />
+   <property name="libdir" location="${basedir}/lib" />
+   <property name="testng.output.dir" value="${basedir}/test-output" />
+   <property name="testng.file" value="testng.xml" />
+   
+   <!-- Define <testng> task -->
+   <taskdef name="testng" classname="org.testng.TestNGAntTask">
+      <classpath>
+         <pathelement location="${libdir}/testng-6.9.10.jar" />
+      </classpath>
+   </taskdef>
+   
+    
+    <path id="classes">
+        <fileset dir="${libdir}" includes="*jar" />
+        <fileset dir="${libdir}" includes="*zip" />
+        <pathelement location="${basedir}/bin" />
+    </path>
+   
+    <target name="clean">
+        <delete dir="${basedir}/bin" />
+    </target>
+    
+    <target name="compile" depends="clean">
+        <mkdir dir="${basedir}/bin" />
+        <javac srcdir="${srcdir}" encoding="UTF-8" destdir="${basedir}/bin" classpathref="classes" includeantruntime="off" debug="on" debuglevel="lines,vars,source" />
+    </target>
+   
+   <target name="runtest" depends="compile">
+        <testng outputdir="${testng.output.dir}" classpathref="classes" delegateCommandSystemProperties="true">
+            <xmlfileset dir="${basedir}" includes="${testng.file}"/>
+        </testng>
+    </target>
+    
+    <path id= "test.classpath" >
+        <fileset dir= "${libdir}" includes= "*.jar" />
+    </path>
+    
+    <target name= "testoutput" depends="runtest" >
+        <xslt in= "${testng.output.dir}/testng-results.xml" style= "${testng.output.dir}/testng-results.xsl"
+          out= "${testng.output.dir}/index1.html " >
+            <param name= "testNgXslt.outputDir" expression= "${basedir}/test-output/" />
+            <param name="testNgXslt.showRuntimeTotals" expression="true" />
+            <classpath refid= "test.classpath" />
+        </xslt>
+    </target>
+
+  
+</project>

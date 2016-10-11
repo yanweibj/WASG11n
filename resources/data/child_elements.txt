@@ -1,0 +1,203 @@
+===================================================================
+	element-data-name					Element Display Name
+==============================		===============================
+activationSpec    					Activation Specification
+adminObject    						Administered Object
+administrator-role    				Administrator Role
+analyticsCollector    				AnalyticsCollector
+analyticsEngine    					AnalyticsEngine
+apiDiscovery    					API Discovery
+application    						Application
+applicationManager    				Application Manager
+applicationMonitor    				Application Monitoring
+appstate    						Application State Monitor
+authentication    					Authentication
+authCache    						Authentication Cache
+authData    						Authentication Data
+authFilter    						Authentication Filter
+basicRegistry    					Basic User Registry
+batchJmsDispatcher    				Batch JMS Dispatcher
+batchJmsEvents    					Batch JMS Events
+batchJmsExecutor    				Batch JMS Executor
+batchJobLogging    					Batch Job Logging
+batchPersistence    				Batch Persistence
+bell    							BELL
+cdiContainer    					CDI Container
+channelfw    						Channel Framework
+classloading    					Classloading
+clusterMember    					Cluster Member
+collectiveController    			Collective Controller
+collectiveMember    				Collective Member
+config    							Configuration Management
+connectionFactory    				Connection Factory
+connectionManager    				Connection Manager
+constrainedDelegation    			Constrained Delegation
+cdi12    							Contexts And Dependency Injection (CDI) V1.2
+couchdb    							CouchDB
+com.ibm.ws.wssecurity.config.samltoken.crl    CRL
+customLdapFilterProperties    		Custom LDAP Filters
+dataSource    						Data Source
+databaseStore    					Database Store
+mimeTypes    						Default Mime Types
+deployVariable    					DeployVariable
+distributedMap    					Distributed Map
+dynamicRouting    					Dynamic Routing
+ejbApplication    					EJB Application
+ejbContainer    					EJB Container
+enterpriseApplication    			Enterprise Application
+eventLogging    					Event Logging
+executor    						Executor Management
+authorization-roles    				Feature Authorization Role Mapping
+featureManager    					Feature Manager
+fileset    							Fileset
+pluginConfiguration    				Generate Plugin
+healthPolicy    					Health Policy
+hostAccess    						Host Access
+hostAuthInfo    					Host Authentication Information
+hostSingleton    					Host Singleton
+httpAccessLogging    				HTTP Access Logging
+httpDispatcher    					HTTP Dispatcher
+httpEndpoint    					HTTP Endpoint
+httpOptions    						HTTP Options
+httpProxyRedirect    				HTTP Proxy Redirect
+httpSession    						HTTP Session
+httpSessionDatabase    				HTTP Session Database
+httpEncoding    					HTTP Transport Encoding
+httpWhiteboard    					HTTP Whiteboard
+domino50LdapFilterProperties    	IBM Lotus Domino LDAP Filters
+securewayLdapFilterProperties    	IBM SecureWay Directory Server LDAP Filters
+idsLdapFilterProperties    			IBM Tivoli Directory Server LDAP Filters
+iiopEndpoint    					IIOP Endpoint
+iiopServerPolicies    				IIOP Server Policies
+include    							Include
+installable    						Installable
+jaasLoginContextEntry    			JAAS Login Context Entry
+jaasLoginModule    					JAAS Login Module
+javaPermission    					Java 2 Security
+jsApplication    					JavaScript Application
+jscore    							JavaScript Application Integration
+jdbcDriver    						JDBC Driver
+jmsActivationSpec    				JMS Activation Specification
+jmsConnectionFactory    			JMS Connection Factory
+jmsDestination    					JMS Destination
+jmsQueue    						JMS Queue
+jmsQueueConnectionFactory    		JMS Queue Connection Factory
+jmsTopic    						JMS Topic
+jmsTopicConnectionFactory    		JMS Topic Connection Factory
+jndiEntry    						JNDI Entry
+jndiObjectFactory    				JNDI Object Factory
+jndiReferenceEntry    				JNDI Reference Entry
+jndiURLEntry    					JNDI URL Entry
+jpa    								JPA Container
+jspEngine    						JSP Engine
+keyStore    						Keystore
+ldapRegistry    					LDAP User Registry
+installUtility    					Liberty Install Utility
+logAnalysis    						LogAnalysis
+logging    							Logging
+ltpa    							LTPA Token
+mailSession    						Mail Session Object
+managedExecutorService    			Managed Executor
+managedScheduledExecutorService    	Managed Scheduled Executor
+managedThreadFactory    			Managed Thread Factory
+messagingEngine    					Messaging Engine
+metricScript    					Metric Script
+activedLdapFilterProperties    		Microsoft Active Directory LDAP Filters
+mongo    							Mongo
+mongoDB    							MongoDB DB
+monitor    							Monitor
+mqttTcpEndpoint    					MQTT Endpoint
+netscapeLdapFilterProperties    	Netscape Directory Server LDAP Filters
+edirectoryLdapFilterProperties    	Novell eDirectory LDAP Filters
+oauthProvider    					OAuth Provider Definition
+oauth-roles    						OAuth Role Map
+orb    								Object Request Broker (ORB)
+openId    							OpenId Authentication
+openidConnectClient    				OpenID Connect Client
+openidConnectProvider   			OpenID Connect Server Provider
+osgiApplication    					OSGi Application
+osgiApplications    				OSGi Applications
+bundleRepository    				OSGi Applications Bundle Repository
+persistentExecutor    				Persistent Scheduled Executor
+quickStartSecurity    				Quick Start Security
+rtcomm    							Real-Time Communications
+remoteFileAccess    				Remote File Access
+requestTiming    					Request Timing
+resourceAdapter    					Resource Adapter
+nativeTransactionManager    		RRS Native Transaction Manager
+safAuthorization    				SAF Authorization
+safCredentials    					SAF Credentials
+safRoleMapper    					SAF Role Mapper
+safRegistry    						SAF User Registry
+samlWebSso20    					SAML Web SSO 2.0 Authentication
+example    							Sample configuration
+scalingDefinitions    				Scaling Definitions
+scalingMember    					Scaling Member
+serverCommands    					Server Commands MBean
+library    							Shared Library
+sipApplicationRouter    			SIP Application Router
+sipContainer    					SIP Container
+sipPMIConfig    					SIP Container PMI
+domainResolver    					SIP Domain Resolver
+sipEndpoint    						SIP Endpoint
+sipStack    						SIP Stack
+spnego    							Spnego Authentication
+sslDefault    						SSL Default Repertoire
+sslOptions    						SSL Options
+ssl    								SSL Repertoire
+stackGroup    						Stack Group
+stackManager    					Stack Manager
+iplanetLdapFilterProperties    		Sun Java System Directory Server LDAP Filters
+syncToOSThread    					Sync-to-OS-thread
+tcpOptions    						TCP Options
+contextService    					Thread Context Propagation
+timedOperation    					Timed Operation
+transaction    						Transaction Manager
+trustAssociation    				Trust Association Interceptor
+userInfo    						User Information
+federatedRepository    				User Registry Federation
+variable    						Variable Declaration
+virtualHost    						Virtual Host
+wasJmsEndpoint    					WAS JMS Endpoint
+wasJmsOutbound    					WAS JMS Outbound
+wsocOutbound    					WAS WebSocket Outbound
+webApplication    					Web Application
+webContainer    					Web Container
+webAppSecurity    					Web Container Application Security
+clusterPluginConfig    				WebSphere Cluster Manager
+collectiveRepository    			WebSphere Collective Repository MBean
+wmqJmsClient    					WebSphere MQ Messaging
+wlmClassification    				WLM Classification
+zosWorkloadManager    				WLM Native Enclave Manager
+zosLocalAdapters    				WOLA
+localAdaptersConnectService    		WOLA Connect
+wsAtomicTransaction    				WS-AtomicTransaction
+wsSecurityClient    				WS-Security Client
+wsSecurityProvider    				WS-Security Provider
+com.ibm.ws.wssecurity.config.samltoken.cert    X509 Certificate
+authorizationInterceptor    		z/OS Connect Authorization Interceptor
+zosConnectDataXform    				z/OS Connect Data Transformer
+zosConnectService    				z/OS Connect Endpoint
+fileSystemloggerInterceptor    		z/OS Connect File System Logger Interceptor
+zosConnectInterceptors    			z/OS Connect Interceptors
+zosConnectManager    				z/OS Connect Manager
+zosConnectServiceRestClient    		z/OS Connect REST Client
+zosConnectServiceRestClientBasicAuth    z/OS Connect Rest Client Basic Authentication
+auditInterceptor    				z/OS Connect SMF Audit Interceptor
+zosLogging    						z/OS Logging
+
+
+
+# ========================================================================
+#
+# Sub-element
+#
+
+#User Registry Federation > Primary Realm
+primaryRealm			Primary Realm
+
+#WS-Security Provider > SAML Token Properties
+samlToken				SAML Token Properties
+
+# > SAML Token Properties > The audience restrictions
+audienceRestrictions	The audience restrictions
